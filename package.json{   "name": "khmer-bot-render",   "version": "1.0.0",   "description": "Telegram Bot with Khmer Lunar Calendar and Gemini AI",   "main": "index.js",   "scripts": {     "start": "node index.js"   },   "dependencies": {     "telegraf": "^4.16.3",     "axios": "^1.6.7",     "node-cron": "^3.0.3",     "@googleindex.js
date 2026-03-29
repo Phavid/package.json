@@ -1,3 +1,17 @@
+{
+  "name": "khmer-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "axios": "^1.6.7",
+    "node-cron": "^3.0.3",
+    "@google/generative-ai": "^0.2.1"
+  }
+}
 const { Telegraf } = require('telegraf');
 const axios = require('axios');
 const cron = require('node-cron');
